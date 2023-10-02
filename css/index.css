@@ -2,3 +2,16 @@ body {
     margin: 20px;
     background-color: antiquewhite;
 }
+
+.wrapper {
+    max-width: 650px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+svg {
+    flex: 0 1 150px;
+}
