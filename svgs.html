@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SVGs</title>
-    <link rel="stylesheet" href="css/index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVGs</title>
 </head>
+
 <body>
-    <h1>SVGS amb paths</h1>
-    <svg width="500" height="300">
-      <path d="M150 50 L75 200 L225 200 Z"
-        fill="orangered"
-        stroke="brown" stroke-width="3"
-      />
-      <path d="M300,50 C180,245 420,245 300,50 Z"
-        fill="lightseagreen"
-        stroke="teal" stroke-width="4"
-      />
-    </svg>
+  <h1>SVGS amb paths</h1>
+
+  <br>
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+    <!-- Rombo -->
+    <polygon points="100,20 160,100 100,180 40,100" fill="#F05032" />
+
+    <!-- Cilindro modificado -->
+    <ellipse cx="100" cy="100" rx="60" ry="20" fill="#FFF" transform="rotate(45 100 100)" />
+    <rect x="32" y="80" width="120" height="40" fill="#FFF" transform="rotate(45 100 100)" />
+  </svg>
+
+  <br>
+  <img width="200px" src="R.jpeg.svg">
+
+  <br>
+  <img width="200px" src="logo simple.svg">
+
 </body>
+
 </html>
