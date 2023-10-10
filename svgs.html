@@ -1,45 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SVGs</title>
-    <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-    <h1>Formes bàsiques</h1>
-    <svg width="500" height="300">
-      <rect 
-        x="50" y="50"
-        width="400" height="200" 
-        rx="10" ry="10"
-        fill="olive"
-        stroke-width="5" stroke="darkgreen"
-        />
-      <line 
-        x1="100" y1="100"
-        x2="220" y2="150" 
-        stroke="red" stroke-width="12"
-        />
-      <circle 
-        cx='200' cy='150' r='50' 
-        fill='purple' 
-        stroke="yellow" stroke-width="4"
-        fill-opacity="0.8"
-        />
-      <polygon 
-        points="360,50 300,228 450,118 270,118 420,228"
-        fill="skyblue"
-        />
-      <polyline points="265,119 319,159 296,227"
-        fill="none"
-        stroke="hotpink" stroke-width="2"
-        />
-    </svg>
 
-    <h1>SVG com una imatge</h1>
-    <img src="img/svg_logo.svg" alt="Logo de SVG" width="100">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVGs</title>
+</head>
+
+<body>
+  <h1>SVGS amb paths</h1>
+
+  <br>
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+    <!-- Rombo -->
+    <polygon points="100,20 160,100 100,180 40,100" fill="#F05032" />
+
+    <!-- Cilindro modificado -->
+    <ellipse cx="100" cy="100" rx="60" ry="20" fill="#FFF" transform="rotate(45 100 100)" />
+    <rect x="32" y="80" width="120" height="40" fill="#FFF" transform="rotate(45 100 100)" />
+  </svg>
+
+  <br>
+  <img width="200px" src="R.jpeg.svg">
+
+  <br>
+  <img width="200px" src="logo simple.svg">
 
 </body>
+
 </html>
